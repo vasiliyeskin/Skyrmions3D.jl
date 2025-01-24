@@ -199,7 +199,7 @@ function getmesh(a_density, iso_value,x)
 	    pointsaspoints[i] = Point3f(points[i][1], points[i][2], points[i][3])
 	end
 
-	return GeometryBasics.MetaMesh(pointsaspoints, facesagain)
+	return GeometryBasics.Mesh(metamesh(pointsaspoints), facesagain)
 
 end
 
