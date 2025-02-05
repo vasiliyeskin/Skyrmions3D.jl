@@ -109,7 +109,6 @@ function make_rational_map!(skyrmion, pfn, qfn, prof; X=[0.0,0.0,0.0], iTH=0.0, 
 
         end
     end
-    println(skyrmion.pion_field)
 
     if skyrmion.boundary_conditions == "dirichlet"
         set_dirichlet_boudary!(skyrmion)
